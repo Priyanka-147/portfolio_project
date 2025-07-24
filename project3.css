@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #252525;
+}
+.navbar h1{
+    color: dodgerblue;
+}
+.navbar .nav-items{
+    display: flex;
+    gap: 20px;
+}
+.navbar .nav-items{
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar{
+    display: flex;
+    background-color: #404040;
+    padding: 15px;
+    align-self: center;
+    justify-content: space-between;
+}
+#name-highlight{
+    color: dodgerblue;
+}
+.btn{
+    padding: 10px;
+    background-color: dodgerblue;
+    border: none;
+    color: azure;
+}
+#hollow{
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+    color: dodgerblue;
+}
+.hero-text{
+    color: white;
+    flex: 1;
+    padding: 25px;
+}
+.hero-image{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    align-items: right;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 20px;
+ }
+.hero-section .hero-text{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    padding: 25px;
+    gap: 20px;
+
+}
+.hero-section .hero-text h1{
+    font-size: 50px;
+    color: azure;
+}
+.hero-section .hero-text h2{
+    font-size: 20px;
+    color: white;
+
+}
+.hero-section{
+    width: 50%;
+    padding: 25px;
+}
+.hero-section .hero-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%
+}
+        
