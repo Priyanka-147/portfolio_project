@@ -1,0 +1,12 @@
+.idcard{
+    padding: 10px;
+    margin: 25;
+    width: 250px;
+    height: 400px;
+}
+.idcard img{
+    border: 3px solid blue;
+    width: 50%;
+
+}
+.idcard h2
