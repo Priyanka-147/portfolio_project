@@ -167,3 +167,232 @@ logo h1{
     gap: 25px;
     padding: 10px 50px;
 }
+.project-header h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.project-content{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 35, 35);
+    justify-content: center;
+    width: 31%;
+    border-radius: 10px;
+    gap: 20px;
+}
+.project-image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.project-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+}
+.project-text h3{
+    color: white;
+    font-size: 16px;
+}
+.project-text p{
+    color: white;
+    font-size: 12px;
+}
+.project-skills{
+    display: flex;
+    gap: 5px;
+}
+.project-skills span{
+    background-color: rgb(100, 109, 255);
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 10px;
+    color: blue;
+}
+.project-btns button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.project-btns button img{
+    width: 10px;
+    filter: invert(1);
+}
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 50px 50px;
+    background-color: black;
+}
+.skill-header h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.skill-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.skill-card{
+    width: 24px;
+    border-radius: 50px;
+    background-color: rgb(35, 35, 35);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-header{
+    display: flex;
+    gap: 55px;
+}
+.card-header img{
+    width: 14px;
+    filter: invert(1);
+}
+.card-header h3{
+    font-size: 20px;
+    color: white;
+}
+.skill-card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.skill-card ul li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 10px 50px;
+}
+.contact-header{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.contact-form{
+    width: 50%;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.contact-form form label{
+    color: white;
+    font-size: 8px;
+}
+.contact-form form input, textarea{
+    background-color: rgb(35, 35, 35);
+    border: 1px solid rgb(45,126,255);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.contact-form form textarea{
+    height: 100px;
+}
+.contact-form form button{
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    background-color: royalblue;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: fit-content;
+}
+.contact-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(35, 35, 35);
+    padding: 15px;
+    border-radius: 10px;
+}
+.contact-text h3{
+    font-size: 18px;
+    color: white;
+}
+.contact-text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.contact-text ul li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: 10px;
+    align-items: center;
+}
+.contact-text ul li img{
+    width: 9px;
+    filter: invert(1);
+}
+.connect-me{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.connect-me p {
+    font-size: 12px;
+    color: white;
+}
+.connect-me ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.connect-me ul li a {
+    text-decoration: none;
+    display: flex;
+}
+.footer{
+    display: flex;
+    gap: 25px;
+    padding: 10px 50px;
+    background-color: black;
+    justify-content: space-around;
+}
+.footer .rights{
+    color: white;
+    font-size: 12px;
+}
+.footer .foot-links{
+    font-display: flex;
+    gap: 10px;
+}
+.foot-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
